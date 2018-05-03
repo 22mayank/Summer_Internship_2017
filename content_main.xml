@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top|center"
+        android:id="@+id/main_logo_layout">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/hs_logo_mdpi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_text_one"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:fontFamily="sans-serif"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_logo_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/viewpager_images_splash"
+        android:layout_above="@+id/main_buttons">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/main_buttons">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:id="@+id/signup"
+            android:textColor="#ac222a" />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="LOG IN"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+
+            android:id="@+id/login"
+            android:textColor="#ac222a" />
+    </LinearLayout>
+
+</RelativeLayout>

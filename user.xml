@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#e57d00"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:background="@drawable/step1pizza"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:id="@+id/backpiz" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Details"
+            android:textColor="#00838f"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="First Name"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/white"
+            android:theme="@style/MyEditText" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Last Name"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/white"
+            android:theme="@style/MyEditText" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Email Address"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/white"
+            android:theme="@style/MyEditText" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Password"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:inputType="textPassword|numberPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/white"
+            android:theme="@style/MyEditText" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="Confirm Password"
+
+            android:inputType="numberPassword|textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/white"
+            android:theme="@style/MyEditText" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Phone Number"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+
+            android:inputType="number"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/white"
+            android:theme="@style/MyEditText" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/next"
+            android:layout_gravity="center"
+            android:id="@+id/next"
+             />
+
+    </LinearLayout>
+
+
+</LinearLayout>

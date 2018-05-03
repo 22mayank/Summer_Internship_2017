@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/pizz3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_click" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:text="HISTORY"
+            android:textColor="#00838f"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/logo_icon" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#e57d00"
+        android:layout_height="10dp">
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Pizza Transactions"
+            android:textStyle="bold"
+            android:textColor="#444444"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Act fast and don't miss out on awesome"
+
+            android:textColor="#444444"
+            android:textSize="14.5sp"
+            android:layout_marginTop="12dp"
+          android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pizza deals in your area."
+
+            android:textColor="#444444"
+            android:textSize="14.5sp"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logo_icon_white"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#e57d00"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/pizzuu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_click" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="CONCTACT US"
+            android:textColor="#00838f"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/logo_icon" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DROP US A LINE!"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+
+            android:layout_gravity="center"
+
+            />
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_height="170dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:gravity="center|top"
+            android:layout_gravity="center"
+            android:hint="Comments, Questions, Suggestions"
+            android:textAlignment="center"
+            android:background="@drawable/huhu"
+            android:textColorHint="#444444"
+
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:id="@+id/but1"
+            android:textColor="#e57d00"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvv"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="GO BACK TO SETTINGS"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textColor="#ac222a"
+            android:id="@+id/but2"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/hs"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

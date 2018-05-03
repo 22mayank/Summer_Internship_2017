@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#e57d00"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#e57d00"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:background="@drawable/step4pizza"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="40dp"
+                android:id="@+id/backpizz" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza Preference"
+                android:textColor="#00838f"
+                android:textSize="18sp"
+
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to unselect the pizza options"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+
+            android:layout_gravity="center"
+
+            />
+
+
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:background="@drawable/cheeseimg"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:background="@drawable/pepperimg"
+            android:layout_height="wrap_content"
+
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:background="@drawable/deluximg"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:background="@drawable/bb"
+                android:id="@+id/dropdown"
+                android:layout_height="34dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EDIT DELIVERY TIMES"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="17sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/LLLL"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="When do you want Pizza?"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="always"
+                    android:id="@+id/always"
+                    android:background="#ffab40"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="choose times"
+                    android:id="@+id/choosetimes"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
+                    android:background="#ffab40"
+                    android:textColor="#ffffff"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/LLHUHU"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Choose your Pizza times:"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Monday"
+                    android:id="@+id/monday"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#ffab40"
+                    android:textColor="#ffffff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/LULLU"
+                    android:layout_marginRight="27dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="-2dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11am-4pm"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:id="@+id/time1"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="4pm-9pm"
+                        android:background="#ffab04"
+                        android:id="@+id/time2"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9pm-1am"
+                        android:id="@+id/time3"
+                        android:layout_marginLeft="2dp"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday"
+                    android:id="@+id/tuesday"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#ffab40"
+                    android:textColor="#ffffff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/LULLU2"
+                    android:layout_marginRight="27dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="-2dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11am-4pm"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:id="@+id/time4"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="4pm-9pm"
+                        android:background="#ffab04"
+                        android:id="@+id/time5"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9pm-1am"
+                        android:id="@+id/time6"
+                        android:layout_marginLeft="2dp"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday"
+                    android:id="@+id/wed"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#ffab40"
+                    android:textColor="#ffffff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/LULLU3"
+                    android:layout_marginRight="27dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="-2dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11am-4pm"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:id="@+id/time7"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="4pm-9pm"
+                        android:background="#ffab04"
+                        android:id="@+id/time8"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9pm-1am"
+                        android:id="@+id/time9"
+                        android:layout_marginLeft="2dp"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday"
+                    android:id="@+id/thursday"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#ffab40"
+                    android:textColor="#ffffff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/LULLU4"
+                    android:layout_marginRight="27dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="-2dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11am-4pm"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:id="@+id/time10"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="4pm-9pm"
+                        android:background="#ffab04"
+                        android:id="@+id/time11"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9pm-1am"
+                        android:id="@+id/time12"
+                        android:layout_marginLeft="2dp"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Friday"
+                    android:id="@+id/friday"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#ffab40"
+                    android:textColor="#ffffff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/LULLU5"
+                    android:layout_marginRight="27dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="-2dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11am-4pm"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:id="@+id/time13"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="4pm-9pm"
+                        android:background="#ffab04"
+                        android:id="@+id/time14"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9pm-1am"
+                        android:id="@+id/time15"
+                        android:layout_marginLeft="2dp"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday"
+                    android:id="@+id/sat"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#ffab40"
+                    android:textColor="#ffffff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/LULLU6"
+                    android:layout_marginRight="27dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="-2dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11am-4pm"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:id="@+id/time16"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="4pm-9pm"
+                        android:background="#ffab04"
+                        android:id="@+id/time17"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9pm-1am"
+                        android:id="@+id/time18"
+                        android:layout_marginLeft="2dp"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sunday"
+                    android:id="@+id/sun"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="25dp"
+                    android:background="#ffab40"
+                    android:textColor="#ffffff"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/LULLU7"
+                    android:layout_marginRight="27dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="-2dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11am-4pm"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:id="@+id/time19"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="4pm-9pm"
+                        android:background="#ffab04"
+                        android:id="@+id/time20"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9pm-1am"
+                        android:id="@+id/time21"
+                        android:layout_marginLeft="2dp"
+                        android:background="#ffab04"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textColor="#e57d00"
+            android:textStyle="bold"
+            android:id="@+id/register"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

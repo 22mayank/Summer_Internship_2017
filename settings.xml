@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#e57d00"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/pizz"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_click" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:text="SETTINGS"
+            android:textColor="#00838f"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="65dp"
+            android:background="@drawable/logo_icon" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        >
+
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/l1"
+            android:divider="#ffffff"
+            android:dividerHeight="2dp"
+
+            android:layout_height="match_parent">
+
+
+        </ListView>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/pizzaimp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
